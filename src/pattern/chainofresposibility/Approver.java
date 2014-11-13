@@ -9,6 +9,7 @@ public abstract class Approver {
 	public abstract void approve(Request request);
 
 	public Approver getSuccessor() {
+		System.out.println("well"); 
 		return successor;
 	}
 
